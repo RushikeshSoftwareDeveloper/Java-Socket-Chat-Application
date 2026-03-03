@@ -1,0 +1,37 @@
+# 💬 Console Chat Application (Java + JDBC)
+
+## 📌 Project Description
+A real-time console-based Chat Application developed using Java Socket Programming and Multithreading.
+The application allows multiple clients to communicate with a server, and messages are stored in a database using JDBC.
+
+## 🚀 Features
+- Client-Server Architecture
+- Real-time Messaging
+- Multi-client support using Multithreading
+- Message storage using JDBC (MySQL)
+- Login system (optional)
+- Persistent chat history
+
+## 🛠 Concepts Used
+- Socket Programming (ServerSocket, Socket)
+- Multithreading
+- JDBC (Database Connectivity)
+- OOP Principles
+- Exception Handling
+
+## 🗄 Database
+- MySQL database for storing chat messages
+- Table:
+  - id
+  - sender
+  - message
+  - timestamp
+
+## ▶ How to Run
+1. Start the Server
+2. Run multiple Client instances
+3. Connect clients to server (localhost, port)
+4. Start chatting
+
+## 👨‍💻 Author
+Rushikesh Walgude
